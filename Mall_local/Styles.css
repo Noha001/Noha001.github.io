@@ -1,0 +1,119 @@
+:root {
+    --aside-width: 15%;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+}
+
+img{
+    width: 50%;
+}
+
+
+body{
+    margin: 0;
+    display: grid;
+    grid: auto / var(--aside-width) 1fr;
+    font-family: Comic sans MS;
+}
+
+aside {
+    background-color: #94AAF9;
+}
+
+.aside__wrapper  {
+position: fixed;
+width: var(--aside-width)   ;
+}
+.header {
+    padding: 5em 0;
+}
+.header__logo {
+    width: 50%;
+    aspect-ratio: 1;
+    border-radius: 50%;
+    background-image: url(https://media.macphun.com/uploads/authors/99/2023-05-2911.31.09-min.png?w=80);
+    background-size: cover;
+    margin: 0 auto;
+
+}
+.header__title {
+    text-align: center;
+    margin-top: 0,5em;
+    font-size: 50px;
+    font-weight: normal;
+}
+
+.nav__links {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+
+    /* background-color: hotpink; */
+}
+
+.nav__link{
+    /* background-color: pink; */
+    text-align: center;
+}
+
+.nav__link + * {
+    padding-top: 3em;
+    position: relative;
+}
+
+.nav__link + *::before {
+    position: absolute;
+    content: "";
+    width:62%   ;
+    height: 2px;
+    background-color: black;
+    top: 1.5em;
+    left: -50%;
+    transform: translateX(195px);
+}
+.nav__links a { 
+    text-decoration: none;
+    color: inherit;
+    font-family: 'Concert One', sans-serif;
+    font-size: 44px;
+
+
+    /* background-color: yellow; */
+}
+.main__heading {
+    font-size: 96px;
+    text-align: center;
+}
+.main__text {
+    font-size: 24px;
+}
+
+.main__text--center {
+    text-align: center;
+    width:80%;
+    margin: 0 auto;
+}
+.main__content {
+    padding: 4em;
+    gap: 4em;
+    display: flex;
+}
+
+.main__content > * {
+    flex: 1 1 0;
+}
+
+.main__frame {
+    display: flex;
+    background-color: grey;
+    padding: 3em;
+}
+.main__frame img {
+    width: calc(100% / 3 - 4em)
+}
