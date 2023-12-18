@@ -42,10 +42,6 @@ footer {
 }
 
 
-nav {
-    /* background-color: red; */
-}
-
 nav ul {
     margin: 0;
 
@@ -67,7 +63,4 @@ nav ul li {
 nav ul li:hover {
     background-color: #fff;
     color: #232323;
-}
-
-nav ul li a {
 }
