@@ -1,0 +1,34 @@
+*{
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url("background 1/rsz_music-equipment-microphone-dj-music-1920x1080-widescreen-high-resolution-1080p-hd-desktop-wallpaper-mr-hd-wallpapers.jpg");
+    
+}
+
+
+.nav {
+   /* background-color: green;  */
+    padding :2.5em 2em;
+    border-bottom: 2.5px solid #3d3d3d;
+
+}
+
+.nav__links{
+    display: flex;
+    margin :0;
+    padding :0;
+    list-style :none;
+    font-size: 50px;
+    justify-content: space-between;
+    align-items: center;
+    font-family: inherit ;
+    color:rgb(247, 108, 108);
+    
+}
+
+a:link {
+    color:rgb(247, 108, 108);
+    text-decoration: none;
+}
