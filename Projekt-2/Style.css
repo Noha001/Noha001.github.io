@@ -28,7 +28,7 @@ body {
     
 }
 
-a:link {
+a {
     color:rgb(247, 108, 108);
     text-decoration: none;
 }
