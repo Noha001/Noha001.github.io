@@ -3,3 +3,17 @@
     margin-top: 0,5em;
     font-size: 50px;
 }
+body {
+    background-image: url("background 1/music-band-1920x1080-wallpaper-5607.jpg")
+}
+
+div {
+    display: grid;
+    grid: 1fr 1fr 1fr 1fr /1fr 1fr 1fr;
+    place-items: center;
+
+}
+
+img {
+    width: 350px;
+}
